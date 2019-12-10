@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,OAAO,CAAC;EACJ,OAAO,EAAE,SAAS;EAClB,MAAM,EAAE,IAAI;EACZ,aAAa,EAAE,GAAG;EAClB,cAAc,EAAE,SAAS;CAGJ;;AAFpB,AAAD,gBAAU,CAAC;EACP,gBAAgB,EAAE,OAAO;EACzB,KAAK,EAAE,KAAK;CAAG",
+    "sources": [
+        "../sass/interface.sass"
+    ],
+    "names": [],
+    "file": "interface.css"
+}

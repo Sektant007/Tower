@@ -3,7 +3,7 @@
  const sass = require('gulp-sass')
 
 // Static server
-function ds() {
+function bs() {
   serveSass();
   browserSync.init({
       server: {
@@ -23,5 +23,5 @@ function serveSass() {
       .pipe(browserSync.stream());
 };
 
-exports.serve = ds;
+exports.serve = bs;
 
