@@ -1,3 +1,17 @@
+@font-face {
+  font-family: 'Futura Book';
+  src: url("../fonts/futura/FuturaBookC.woff") format("woff"), url("../fonts/futura/FuturaBookC.woff2") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: wrap; }
+
+@font-face {
+  font-family: 'Futura Demi';
+  src: url("../fonts/futura/FuturaDemiC.woff") format("woff"), url("../fonts/futura/FuturaDemiC.woff2") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: wrap; }
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -307,10 +321,9 @@ template {
   padding: 13px 20px;
   border: none;
   border-radius: 2px;
-  text-transform: uppercase; }
-  .button--primary {
-    background-color: .button--primary primary;
-    color: .button--primary light; }
+  text-transform: uppercase;
+  background-color: #E38873;
+  color: #ffffff; }
 
 .container {
   max-width: 1256px;
@@ -339,8 +352,4 @@ template {
   color: #E38873; }
 
 .contacts__phone {
-  margin-right: 45px; }
-
-body {
-  font-family: sans-serif;
-  font-size: 14px; }
+  margin-right: 20px; }
